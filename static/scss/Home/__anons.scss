@@ -1,0 +1,25 @@
+.anons {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.anons__in {
+    @include flex(center,space-between);
+    padding: 10px 0;
+}
+
+.anons__comment {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.anons__span {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.anons__img {}

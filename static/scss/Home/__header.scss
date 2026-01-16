@@ -1,0 +1,29 @@
+.header {}
+
+.container {
+    padding: 24px 100px;
+}
+
+.header__in {
+    @include flex(center,space-between)
+}
+
+.header__logo {}
+
+.header__menu {}
+
+.header__item {}
+
+.header__link {}
+
+.header__ic {}
+
+.header__back--input {}
+
+.header__icon--input {}
+
+.header__input {}
+
+.header__images {}
+
+.header__icons {}
