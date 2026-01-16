@@ -1,0 +1,91 @@
+.hero_wrap {
+}
+.hero_nav-wrap {
+  @include flex(center, start);
+  padding: 24px 100px;
+}
+section {
+  padding: 0 100px;
+}
+.hero_nav-list {
+}
+.hero_nav-link {
+  @include flex();
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: $gray;
+}
+.hero_nav-list:nth-child(4) > .hero_nav-link {
+  color: black !important;
+}
+.hero_main-wrap {
+  @include flex();
+}
+.hero_img-wrap {
+  @include flex();
+  gap: 14px;
+}
+.hero_img-card {
+  @include flex();
+  flex-direction: column;
+  gap: 14px;
+}
+.hero_img {
+}
+.hero_buy-wrap {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.product_title {
+}
+.hero_star-wrap {
+}
+.product_star {
+}
+.hero_text {
+}
+.hero_text-span {
+}
+.hero_price-wrap {
+}
+.hero_price {
+}
+.hero_price-gray {
+}
+.hero_price-discount {
+}
+.hero_p-text {
+}
+.hrline {
+}
+.select_color-wrap {
+}
+.hero_color-text {
+}
+.hero_select-color1 {
+}
+.hero_select-color2 {
+}
+.hero_select-color3 {
+}
+.choose_size {
+}
+.choose_size-text {
+}
+.hero_size-checkbox {
+}
+.hero_btns-wrap {
+}
+.count_btn {
+}
+.count_text {
+}
