@@ -3,3 +3,8 @@
   align-items: $align;
   justify-content: $justify;
 }
+
+@mixin felx2($align: center) {
+  display: flex;
+  align-items: $align;
+}
