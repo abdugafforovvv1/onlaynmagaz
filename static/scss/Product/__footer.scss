@@ -1,0 +1,223 @@
+.footer_wrap {
+  @include flex(center, space-between);
+  gap: 30px;
+}
+.footer_l-wrap {
+  @include flex(start, space-between);
+  flex-direction: column;
+  height: 180px;
+}
+.footer_title {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 33.45px;
+  font-variant: small-caps;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.footer_text {
+  max-width: 245px;
+}
+.footer_media-wrap {
+  @include flex();
+  gap: 12px;
+}
+.footer_r-wrap {
+  width: 70%;
+}
+
+.footer-nav {
+  @include flex(center, space-between);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  max-height: 180px;
+}
+.footer_nav-l {
+  @include flex();
+  width: 50%;
+  gap: 100px;
+  height: 180px;
+}
+.footer_nav-list {
+}
+.footer_nav-title {
+  margin-bottom: 12px;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  font-variant: small-caps;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer_nav-item {
+  margin-bottom: 10px;
+}
+.footer_nav-link {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #00000099;
+  line-height: 19px;
+  letter-spacing: 0px;
+}
+.footer_hrline {
+  max-width: 85%;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.footer_low-wrap {
+  @include flex(center, space-between);
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.footer_low-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  color: $gray;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+@media (max-width: 1300px) {
+  .footer-nav {
+    @include flex(center, space-between);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    max-height: 180px;
+  }
+  .footer_nav-l {
+    @include flex();
+    width: 50%;
+    gap: 50px;
+    height: 180px;
+  }
+}
+@media (max-width: 1050px) {
+  .footer-nav {
+    @include flex(center, space-between);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    max-height: 180px;
+  }
+  .footer_nav-l {
+    @include flex();
+    width: 50%;
+    gap: 25px;
+    height: 180px;
+  }
+  .footer_title {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 33.45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+  .footer_text {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .footer_nav-title {
+    font-family: Satoshi;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .footer_nav-link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-nav {
+    @include flex(center, space-between);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    max-height: 180px;
+  }
+  .footer_nav-l {
+    @include flex();
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+    height: 180px;
+  }
+  .footer_wrap {
+    margin-top: 100px;
+  }
+  .footer_text {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .footer_wrap {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 650px) {
+  .footer_wrap {
+    align-items: start;
+    padding-left: 20px;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: start;
+    margin-bottom: 100px;
+  }
+
+  .footer_text {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .footer_l-wrap {
+    margin-bottom: 100px;
+  }
+  .footer-nav {
+    gap: 30px;
+  }
+  .footer_low-wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 490px) {
+  .footer_text {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+}

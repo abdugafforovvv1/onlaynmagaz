@@ -1,0 +1,61 @@
+.might_title {
+  text-align: center;
+}
+.might_wrap {
+  padding: 64px 100px;
+}
+.might_card-wrap {
+  padding: 55px 0;
+  @include flex();
+  gap: 20px;
+  overflow: auto;
+}
+.might_card {
+  @include flex(start, start);
+
+  flex-direction: column;
+}
+.might_card-img {
+  max-width: 295px;
+  border-radius: 20px;
+  background-color: #f0eeed;
+}
+.might_card-title {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  margin-top: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.might_star-wrap {
+  margin: 0 0 8px 0;
+}
+@media (max-width: 1300px) {
+  .might_card-img {
+    max-width: 280px;
+  }
+}
+@media (max-width: 1050px) {
+  .might_card-img {
+    max-width: 260px;
+  }
+}
+@media (max-width: 800px) {
+  .might_card-img {
+    max-width: 240px;
+  }
+}
+@media (max-width: 650px) {
+  .might_card-img {
+    max-width: 220px;
+  }
+}
+@media (max-width: 490px) {
+  .might_card-img {
+    max-width: 200px;
+  }
+}

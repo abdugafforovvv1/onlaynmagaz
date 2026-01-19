@@ -1,0 +1,114 @@
+.forma_wrap {
+  border-radius: 20px;
+  padding: 36px 64px;
+  margin: 0 100px;
+  background-color: black;
+  color: white;
+  @include flex(center, space-between);
+}
+.forma_title {
+  max-width: 550px;
+}
+.forma_form {
+  @include flex();
+  gap: 25px;
+  flex-direction: column;
+  width: 350px;
+}
+.forma_email-inp {
+  padding: 13px;
+  width: 350px;
+  border-radius: 62px;
+  border: none;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #00000066;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.forma_submit-btn {
+  width: 350px;
+  border-radius: 62px;
+  background-color: white;
+  color: black;
+  padding: 13px;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+@media (max-width: 1300px) {
+  .forma_wrap {
+    padding: 30px 52px;
+    margin: 0 80px;
+    @include flex(center, space-between);
+  }
+  .forma_form {
+    gap: 20px;
+    width: 400px;
+  }
+  .forma_title {
+    max-width: 350px;
+    font-family: Integral CF;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 1050px) {
+  .forma_wrap {
+    padding: 24px 40px;
+    margin: 0 60px;
+    @include flex(center, space-between);
+  }
+  .forma_form {
+    gap: 15px;
+    width: 300px;
+  }
+  .forma_title {
+    max-width: 300px;
+    font-family: Integral CF;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 800px) {
+  .forma_wrap {
+    padding: 18px 28px;
+    margin: 0 40px;
+    gap: 20px;
+    flex-direction: column;
+    @include flex(center, space-between);
+  }
+  .forma_form {
+    gap: 10px;
+    width: 300px;
+  }
+}
+@media (max-width: 650px) {
+  .forma_wrap {
+    padding: 32px 24px;
+    margin: 0 20px;
+    @include flex(center, space-between);
+  }
+  .forma_form {
+    gap: 10px;
+    width: 300px;
+  }
+}
+@media (max-width: 490px) {
+  .forma_wrap {
+    margin: 0 10px;
+    @include flex(center, space-between);
+    flex-direction: column;
+  }
+}
