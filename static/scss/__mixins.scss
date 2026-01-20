@@ -4,7 +4,7 @@
   justify-content: $justify;
 }
 
-@mixin felx2($align: center) {
+@mixin felx2() {
   display: flex;
-  align-items: $align;
+  align-items: center;
 }

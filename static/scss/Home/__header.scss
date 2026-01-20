@@ -1,11 +1,13 @@
-.header {}
+// .header {}
 
-.container {
+.container {}
+
+.container__header {
     padding: 24px 100px;
 }
 
 .header__in {
-    @include flex(center, space-between)
+    @include flex(center, space-between); 
 }
 
 .header__logo {
@@ -19,7 +21,7 @@
     gap: 24px;
 }
 
-.header__item {}
+// .header__item {}
 
 .header__link {
     @include flex();
@@ -60,4 +62,4 @@
     gap: 14px;
 }
 
-.header__icons {}
+// .header__icons {}

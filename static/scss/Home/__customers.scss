@@ -1,0 +1,74 @@
+.customers {}
+
+.container {}
+
+.customers__in {
+    margin-top: 80px;
+}
+
+.customers__flex--texts {
+    @include flex(center, space-between);
+    padding: 0 100px;
+}
+
+.customers__title {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+}
+
+.customers__poloj {
+    @include felx2();
+    gap: 16px;
+}
+
+.customers__img--poloj {}
+
+.customers__boxes {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    @include felx2();
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.customer__box {
+    width: 400px;
+    height: 240px;
+    max-width: 400px;
+    max-height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.customer__box--in {
+    padding: 28px 32px;
+}
+
+.customers__score {}
+
+.customers__user {
+    @include felx2();
+    margin-top: 15px;
+    margin-bottom: 12px;
+    gap: 4px;
+}
+
+.customers__title--box {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.customers__tick {}
+
+.customers__comment {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}

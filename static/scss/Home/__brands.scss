@@ -4,6 +4,15 @@
 
 .container {}
 
-.brands__in {}
+.container__brands {
+    padding: 0 101px;
+}
 
-.brands__img {}
+.brands__in {
+    @include felx2();
+    justify-content: space-between;
+}
+
+.brands__img {
+    padding: 44px 0;
+}

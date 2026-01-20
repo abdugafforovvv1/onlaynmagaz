@@ -1,0 +1,97 @@
+.arrivals {}
+
+.container {}
+
+.container__arrivals {
+    padding: 0 100px;
+}
+
+.arrivals__in {}
+
+.arrivals__title {
+    text-align: center;
+    margin-top: 72px;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.arrivals__boxes {
+    @include felx2();
+    gap: 20px;
+    margin-top: 55px;
+}
+
+.arrival__box {}
+
+.arrival__img {}
+
+.arrival__comment {
+    font-family: "Satoshi";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 16px;
+}
+
+.arrival__box--flex {
+    @include felx2();
+    margin-top: 8px;
+    gap: 13px;
+}
+
+.box__score {}
+
+.arrival__score--comment {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.score__span {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.arrival__box--cost {
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+}
+
+.arrival__cost--flex {
+    @include felx2();
+    gap: 10px;
+}
+
+.arrival__box--costdecor {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin-top: 8px;
+}
+
+.arrival__box--sale {
+    background-color: rgba(255, 51, 51, 0.1);
+    color: rgba(255, 51, 51, 1);
+    padding: 6px 13px;
+    margin-top: 8px;
+    border-radius: 62px;
+}
+
+.arrival__btn {
+    margin-top: 36px;
+    padding: 15px 80px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 62px;
+    display: flex;
+    margin-left: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
