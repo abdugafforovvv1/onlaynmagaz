@@ -1,0 +1,65 @@
+// .header {}
+
+.container {}
+
+.container__header {
+    padding: 24px 100px;
+}
+
+.header__in {
+    @include flex(center, space-between); 
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: Bold;
+}
+
+.header__menu {
+    @include flex();
+    gap: 24px;
+}
+
+// .header__item {}
+
+.header__link {
+    @include flex();
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.header__ic {
+    margin-left: 7px;
+}
+
+.header__back--input {
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 1);
+    width: 577px;
+    border-radius: 62px;
+}
+
+.header__icon--input {
+    padding: 12px 0;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+
+.header__input {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__images {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+// .header__icons {}

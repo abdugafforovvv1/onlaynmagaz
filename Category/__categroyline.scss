@@ -1,0 +1,38 @@
+.categoryline {}
+
+.container {}
+
+.container__categoryline {
+    padding: 0 100px;
+}
+
+.categoryline__in {}
+
+.categoryline__line {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.categoryline__flex {
+    @include felx2();
+    margin-top: 30px;
+    gap: 12px;
+}
+
+.categoryline__comment1 {
+    @include felx2();
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    gap: 4px;
+}
+
+.categoryline__img {}
+
+.categoryline__comment2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
