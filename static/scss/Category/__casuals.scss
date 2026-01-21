@@ -7,7 +7,7 @@
 }
 
 .casuals__in {
-    @include felx2();
+    @include felx2(flex-start);
     justify-content: space-between
 }
 
