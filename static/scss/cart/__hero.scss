@@ -1,0 +1,207 @@
+.hero_title {
+  font-family: Integral CF;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.hero_main-wrap {
+  margin-bottom: 50px;
+  @include flex();
+}
+.cart-item_text {
+  @include flex(center, space-between);
+  width: 527px;
+  height: 124px;
+}
+.hero_cart-list {
+  @include flex(center, space-between);
+  flex-direction: column;
+  padding: 20px 24px;
+  border-radius: 20px;
+  border: 1px solid #0000001a;
+  width: 715px;
+  height: 508px;
+}
+
+.hero_cart-item {
+  @include flex(center, start);
+  width: 667px;
+}
+.hero_card-img {
+  width: 124px;
+  height: 124px;
+  border-radius: 9px;
+}
+.cart_text-wrap {
+  text-align: start;
+  margin-left: 16px;
+  margin-right: 75px;
+}
+.hero_cart-title {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.hero_cart-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: $gray;
+  margin-top: 4px;
+}
+.hero_cart-price {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.cart_btn-wrap {
+  @include flex(end, space-between);
+
+  flex-direction: column;
+  height: 124px;
+}
+.cart_bin-btn {
+  background-color: transparent;
+}
+
+.order_wrap {
+  @include flex(start, space-between);
+  width: 505px;
+  height: 458px;
+  flex-direction: column;
+  padding: 20px 24px;
+  border-radius: 20px;
+  border: 1px solid #0000001a;
+}
+.order_title {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.order_text-list {
+  @include flex(center, space-between);
+  flex-direction: column;
+  width: 457px;
+  height: 193px;
+}
+.order_text-item {
+  width: 457px;
+  @include flex(center, space-between);
+}
+.order_text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: $gray;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.order_price {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+.order_price-red {
+  color: red;
+}
+.hrline-cart {
+  background-color: black;
+  width: 457px;
+  opacity: 0.15;
+}
+.order_total-item {
+  width: 457px;
+  @include flex(center, space-between);
+}
+.order_total-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: rgb(62, 62, 62);
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.order_total-price {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+.promocode_wrap {
+  @include flex();
+  width: 457px;
+}
+.promocode_inp {
+  border-radius: 62px;
+  padding: 12px 16px;
+  border: none;
+  background-color: #f0f0f0;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #00000066;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 326px;
+}
+.promocode_btn {
+  background-color: black;
+  color: white;
+  padding: 12px 38.5px;
+  border-radius: 62px;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  height: 45.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.order_btn {
+  @include flex();
+  background-color: black;
+  color: white;
+  gap: 20px;
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  border-radius: 62px;
+  width: 457px;
+  height: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
